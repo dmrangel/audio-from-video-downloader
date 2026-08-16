@@ -1,4 +1,4 @@
-# python-video-downloader
+# audio-from-video-downloader
 
 App simples em Python pra baixar música/áudio do YouTube e de centenas de outros sites, convertendo direto pra mp3.
 
