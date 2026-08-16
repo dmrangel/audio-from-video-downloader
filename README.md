@@ -7,6 +7,41 @@ App simples em Python pra baixar música/áudio do YouTube e de centenas de outr
 - Python 3.9+
 - Não precisa instalar ffmpeg no sistema — ele já vem embutido via `imageio-ffmpeg`.
 
+### Instalando o Python
+
+**Windows**
+
+1. Baixe o instalador em [python.org/downloads](https://www.python.org/downloads/).
+2. Ao abrir o instalador, marque a opção **"Add python.exe to PATH"** antes de clicar em Install.
+3. Confirme a instalação abrindo um novo terminal (PowerShell) e rodando:
+
+```powershell
+python --version
+```
+
+**Linux**
+
+A maioria das distribuições já vem com Python. Se precisar instalar/atualizar:
+
+```bash
+# Debian/Ubuntu
+sudo apt update && sudo apt install python3 python3-pip
+
+# Fedora
+sudo dnf install python3 python3-pip
+
+# Arch
+sudo pacman -S python python-pip
+```
+
+Confirme com:
+
+```bash
+python3 --version
+```
+
+> Nos exemplos de uso abaixo, no Linux use `python3` no lugar de `python`.
+
 ## Instalação
 
 ```bash
